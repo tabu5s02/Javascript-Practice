@@ -1,13 +1,17 @@
-console.log('Hey this is my first piece of JS code!!! YAY')
-console.log(123456789)
+// Data types
+// Primitive data types
 
-console.log({name: "Tabu"})
+let age =23.932;
+let Name = "asdf"
+let isTrue = false
+let isflase = false
 
-console.log(true)
-console.log(false)
 
-console.log(false, 234234, 'string', { name:"Tabu"})
 
-console.warn("this is a warning")
+// Non-primitive data type
 
-console.error("This is an error")
+let arr = [1, 2, 3, 4, 5]
+arr.push("value")
+arr.unshift(false)
+console.log(arr)
+console.log(typeof arr)
